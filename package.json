@@ -1,6 +1,5 @@
-
 {
-   "name": "mybook",
+  "name": "mybook",
   "version": "1.0.0",
   "description": "gitbook",
   "main": "index.js",
@@ -12,7 +11,7 @@
     "url": "git+https://github.com/wanglin111/mybook.git"
   },
   "keywords": [],
-  "author": "wanglin",
+  "author": "wanglin111",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wanglin111/mybook/issues"
@@ -20,5 +19,6 @@
   "homepage": "https://github.com/wanglin111/mybook#readme",
   "devDependencies": {
     "gitbook-cli": "^2.3.2"
-  }
+  },
+  "dependencies": {}
 }
