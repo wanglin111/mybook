@@ -1,19 +1,3 @@
-# mlanguage: node_js
-node_js:
-    - "10"
-
-after_script:
-    - gitbook build
-        - cd ./_book
-            - git init
-                - git config user.name "${USER_NAME}"
-                    - git config user.email "${USER_EMAIL}"
-                        - git add .
-                            - git commit -m "publish gitbook"
-                                - git push --force --quiet "https://${ACC_TOKEN}@${GH_REF}" master:${BRANCH}
-
-branches:
-    only:
-          - master
-
+# mybook
+这里介绍了一些关于季节的散文！
 
