@@ -1,0 +1,333 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第三章 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ch04.html" />
+    
+    
+    <link rel="prev" href="ch02.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="ch01.html">
+            
+                <a href="ch01.html">
+            
+                    
+                    第一章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="ch02.html">
+            
+                <a href="ch02.html">
+            
+                    
+                    第二章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="ch03.html">
+            
+                <a href="ch03.html">
+            
+                    
+                    第三章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="ch04.html">
+            
+                <a href="ch04.html">
+            
+                    
+                    第四章
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第三章</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ch03-&#x590F;&#x5929;">ch03 &#x590F;&#x5929;</h1>
+<p>&#x4F5C;&#x8005;&#xFF1A;&#x6C6A;&#x66FE;&#x797A;
+&#x6B63;&#x6587;&#xFF1A;
+&#x590F;&#x5929;&#x7684;&#x65E9;&#x6668;&#x771F;&#x8212;&#x670D;&#x3002;&#x7A7A;&#x6C14;&#x5F88;&#x51C9;&#x723D;&#xFF0C;&#x8349;&#x4E0A;&#x8FD8;&#x6302;&#x7740;&#x9732;&#x6C34;&#xFF08;&#x8718;&#x86DB;&#x7F51;&#x4E0A;&#x4E5F;&#x6302;&#x7740;&#x9732;&#x6C34;&#xFF09;&#xFF0C;&#x5199;&#x5927;&#x5B57;&#x4E00;&#x5F20;&#xFF0C;&#x8BFB;&#x53E4;&#x6587;&#x4E00;&#x7BC7;&#x3002;&#x590F;&#x5929;&#x7684;&#x65E9;&#x6668;&#x771F;&#x8212;&#x670D;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x51E1;&#x82B1;&#x5927;&#x90FD;&#x662F;&#x4E94;&#x74E3;&#xFF0C;&#x6800;&#x5B50;&#x82B1;&#x5374;&#x662F;&#x516D;&#x74E3;&#x3002;&#x5C71;&#x6B4C;&#x4E91;&#xFF1A;&#x201C;&#x6800;&#x5B50;&#x82B1;&#x5F00;&#x516D;&#x74E3;&#x5934;&#x3002;&#x201D;&#x6800;&#x5B50;&#x82B1;&#x7C97;&#x7C97;&#x5927;&#x5927;&#xFF0C;&#x8272;&#x767D;&#xFF0C;&#x8FD1;&#x8482;&#x5904;&#x5FAE;&#x7EFF;&#xFF0C;&#x6781;&#x9999;&#xFF0C;&#x9999;&#x6C14;&#x7B80;&#x76F4;&#x6709;&#x70B9;&#x53EB;&#x4EBA;&#x53D7;&#x4E0D;&#x4E86;&#xFF0C;&#x6211;&#x7684;&#x5BB6;&#x4E61;&#x4EBA;&#x8BF4;&#x662F;&#xFF1A;&#x201C;&#x78B0;&#x9F3B;&#x5B50;&#x9999;&#x201D;&#x3002;&#x6800;&#x5B50;&#x82B1;&#x7C97;&#x7C97;&#x5927;&#x5927;&#xFF0C;&#x53C8;&#x9999;&#x5F97;&#x63B8;&#x90FD;&#x63B8;&#x4E0D;&#x5F00;&#xFF0C;&#x4E8E;&#x662F;&#x4E3A;&#x6587;&#x96C5;&#x4EBA;&#x4E0D;&#x53D6;&#xFF0C;&#x4EE5;&#x4E3A;&#x54C1;&#x683C;&#x4E0D;&#x9AD8;&#x3002;&#x6800;&#x5B50;&#x82B1;&#x8BF4;&#xFF1A;&#x201C;&#x53BB;&#x4F60;&#x5988;&#x7684;&#xFF0C;&#x6211;&#x5C31;&#x662F;&#x8981;&#x8FD9;&#x6837;&#x9999;&#xFF0C;&#x9999;&#x5F97;&#x75DB;&#x75DB;&#x5FEB;&#x5FEB;&#xFF0C;&#x4F60;&#x4EEC;&#x4ED6;&#x5988;&#x7684;&#x7BA1;&#x5F97;&#x7740;&#x5417;&#xFF01;&#x201D;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x4EBA;&#x4EEC;&#x5F80;&#x5F80;&#x628A;&#x6800;&#x5B50;&#x82B1;&#x548C;&#x767D;&#x5170;&#x82B1;&#x76F8;&#x6BD4;&#x3002;&#x82CF;&#x5DDE;&#x59D1;&#x5A18;&#x4E32;&#x8857;&#x5356;&#x82B1;&#xFF0C;&#x5A07;&#x58F0;&#x53EB;&#x5356;&#xFF1A;&#x201C;&#x6800;&#x5B50;&#x82B1;&#xFF01;&#x767D;&#x5170;&#x82B1;&#xFF01;&#x201D;&#x767D;&#x5170;&#x82B1;&#x82B1;&#x6735;&#x534A;&#x5F00;&#xFF0C;&#x5A07;&#x5A07;&#x5AE9;&#x5AE9;&#xFF0C;&#x5982;&#x8C61;&#x7259;&#x767D;&#x8272;&#xFF0C;&#x9999;&#x6C14;&#x6587;&#x9759;&#xFF0C;&#x4F46;&#x6709;&#x70B9;&#x751C;&#x4FD7;&#xFF0C;&#x4E3A;&#x4E0A;&#x6D77;&#x957F;&#x4E09;&#x5802;&#x5B50;&#x7684;&#x201C;&#x500C;&#x4EBA;&#x201D;&#x6240;&#x559C;&#xFF0C;&#x56E0;&#x4E3A;&#x542C;&#x8BF4;&#x767D;&#x5170;&#x82B1;&#x8981;&#x5230;&#x591C;&#x95F4;&#x6795;&#x4E0A;&#x624D;&#x683C;&#x5916;&#x5730;&#x9999;&#x3002;&#x6211;&#x89C9;&#x5F97;&#x7EA2;&#x201C;&#x500C;&#x4EBA;&#x201D;&#x7684;&#x6795;&#x4E0A;&#x4E4B;&#x82B1;&#xFF0C;&#x4E0D;&#x5982;&#x8239;&#x5A18;&#x9AFB;&#x8FB9;&#x82B1;&#x66F4;&#x4E3A;&#x523A;&#x6FC0;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x590F;&#x5929;&#x7684;&#x82B1;&#x91CC;&#x6700;&#x4E3A;&#x5E7D;&#x9759;&#x7684;&#x662F;&#x73E0;&#x5170;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x7275;&#x725B;&#x82B1;&#x77ED;&#x547D;&#x3002;&#x65E9;&#x6668;&#x6CBE;&#x9732;&#x624D;&#x5F00;&#xFF0C;&#x5348;&#x65F6;&#x5373;&#x5DF2;&#x840E;&#x8C22;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x79CB;&#x8475;&#x4E5F;&#x547D;&#x8584;&#x3002;&#x74E3;&#x6DE1;&#x9EC4;&#xFF0C;&#x767D;&#x5FC3;&#xFF0C;&#x5FC3;&#x5916;&#x6709;&#x7D2B;&#x6655;&#x3002;&#x98CE;&#x5439;&#x8584;&#x74E3;&#xFF0C;&#x695A;&#x695A;&#x53EF;&#x601C;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x51E4;&#x4ED9;&#x82B1;&#x6709;&#x5355;&#x74E3;&#x8005;&#xFF0C;&#x6709;&#x91CD;&#x74E3;&#x8005;&#x3002;&#x91CD;&#x74E3;&#x8005;&#x5982;&#x5C0F;&#x7261;&#x4E39;&#xFF0C;&#x51E4;&#x4ED9;&#x82B1;&#x830E;&#x7C97;&#x80A5;&#xFF0C;&#x6E56;&#x5357;&#x4EBA;&#x7528;&#x4EE5;&#x814C;&#x201C;&#x81ED;&#x54B8;&#x83DC;&#x201D;&#xFF0C;&#x6B64;&#x543E;&#x4E61;&#x6240;&#x672A;&#x6709;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x9A6C;&#x9F7F;&#x82CB;&#x3001;&#x72D7;&#x5C3E;&#x5DF4;&#x8349;&#x3001;&#x76CA;&#x6BCD;&#x8349;&#xFF0C;&#x90FD;&#x957F;&#x5F97;&#x975E;&#x5E38;&#x65FA;&#x76DB;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x6DE1;&#x7AF9;&#x53F6;&#x5F00;&#x6D45;&#x84DD;&#x8272;&#x5C0F;&#x82B1;&#xFF0C;&#x5982;&#x5C0F;&#x8774;&#x8776;&#xFF0C;&#x5F88;&#x597D;&#x770B;&#x3002;&#x53F6;&#x7247;&#x5FAE;&#x4F3C;&#x7AF9;&#x53F6;&#x800C;&#x8F83;&#x67D4;&#x8F6F;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x201C;&#x4E07;&#x628A;&#x94A9;&#x201D;&#x5373;&#x82CD;&#x8033;&#x3002;&#x56E0;&#x4E3A;&#x7ED3;&#x7684;&#x5C0F;&#x679C;&#x4E0A;&#x6709;&#x8BB8;&#x591A;&#x5C0F;&#x94A9;&#xFF0C;&#x78B0;&#x5230;&#x5B83;&#x5C31;&#x4F1A;&#x6302;&#x5728;&#x8863;&#x670D;&#x4E0A;&#xFF0C;&#x5F97;&#x5C0F;&#x5FC3;&#x6458;&#x53BB;&#x3002;&#x6240;&#x4EE5;&#x5B69;&#x5B50;&#x53EB;&#x5B83;&#x201C;&#x4E07;&#x628A;&#x94A9;&#x201D;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x6211;&#x4EEC;&#x90A3;&#x91CC;&#x6709;&#x4E00;&#x79CD;&#x201C;&#x5DF4;&#x6839;&#x8349;&#x201D;&#xFF0C;&#x8D34;&#x5730;&#x800C;&#x53BB;&#xFF0C;&#x662F;&#x89C1;&#x7F1D;&#x624E;&#x6839;&#xFF0C;&#x4E00;&#x68F5;&#x8349;&#x8513;&#x5EF6;&#x5F00;&#x6765;&#xFF0C;&#x957F;&#x4E86;&#x5F88;&#x591A;&#x6839;&#xFF0C;&#x6A2A;&#x7684;&#xFF0C;&#x7AD6;&#x7684;&#xFF0C;&#x4E00;&#x5927;&#x7247;&#x3002;&#x800C;&#x4E14;&#x975E;&#x5E38;&#x987D;&#x5F3A;&#xFF0C;&#x62C9;&#x626F;&#x4E0D;&#x65AD;&#x3002;&#x5F88;&#x5C0F;&#x7684;&#x5B69;&#x5B50;&#x5C31;&#x4F1A;&#x5531;&#xFF1A;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x5DF4;&#x6839;&#x8349;&#xFF0C;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x7EFF;&#x8335;&#x8335;&#xFF0C;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x5531;&#x4E2A;&#x5531;&#xFF0C;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x628A;&#x72D7;&#x542C;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x6700;&#x8BA8;&#x538C;&#x7684;&#x662F;&#x201C;&#x81ED;&#x829D;&#x9EBB;&#x201D;&#x3002;&#x638F;&#x87CB;&#x87C0;&#x3001;&#x6349;&#x91D1;&#x94C3;&#x5B50;&#xFF0C;&#x5E38;&#x5E38;&#x6CBE;&#x4E86;&#x4E00;&#x88E4;&#x817F;&#x3002;&#x5176;&#x81ED;&#x65E0;&#x6BD4;&#xFF0C;&#x5F88;&#x96BE;&#x9664;&#x51C0;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x897F;&#x74DC;&#x4EE5;&#x7EF3;&#x7EDC;&#x60AC;&#x4E4B;&#x4E95;&#x4E2D;&#xFF0C;&#x4E0B;&#x5348;&#x5256;&#x98DF;&#xFF0C;&#x4E00;&#x5200;&#x4E0B;&#x53BB;&#xFF0C;&#x5580;&#x5693;&#x6709;&#x58F0;&#xFF0C;&#x51C9;&#x6C14;&#x56DB;&#x6EA2;&#xFF0C;&#x8FDE;&#x773C;&#x775B;&#x90FD;&#x662F;&#x51C9;&#x7684;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x5929;&#x4E0B;&#x7686;&#x91CD;&#x201C;&#x9ED1;&#x7C7D;&#x7EA2;&#x74E4;&#x201D;&#xFF0C;&#x543E;&#x4E61;&#x72EC;&#x4EE5;&#x201C;&#x4E09;&#x767D;&#x201D;&#x4E3A;&#x8D35;&#xFF1A;&#x767D;&#x76AE;&#x3001;&#x767D;&#x74E4;&#x3001;&#x767D;&#x7C7D;&#x3002;&#x201C;&#x4E09;&#x767D;&#x201D;&#x4EE5;&#x4E1C;&#x58A9;&#x4EA7;&#x8005;&#x6700;&#x4F73;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x9999;&#x74DC;&#x6709;&#xFF1A;&#x725B;&#x89D2;&#x9165;&#xFF0C;&#x72B6;&#x4F3C;&#x725B;&#x89D2;&#xFF0C;&#x74DC;&#x76AE;&#x6DE1;&#x7EFF;&#x8272;&#xFF0C;&#x5228;&#x53BB;&#x76AE;&#xFF0C;&#x5219;&#x74DC;&#x8089;&#x6D53;&#x7EFF;&#xFF0C;&#x7C7D;&#x8D64;&#x7EA2;&#xFF0C;&#x5473;&#x6D53;&#x800C;&#x8089;&#x8106;&#xFF0C;&#x5317;&#x4EAC;&#x4EA6;&#x6709;&#xFF0C;&#x8C13;&#x4E4B;&#x201C;&#x7F8A;&#x89D2;&#x871C;&#x201D;&#xFF1B;&#x867E;&#x87C6;&#x9165;&#xFF0C;&#x4E0D;&#x751A;&#x751C;&#x800C;&#x8106;&#xFF0C;&#x56BC;&#x4E4B;&#x6709;&#x9EC4;&#x74DC;&#x9999;&#xFF1B;&#x68A8;&#x74DC;&#xFF0C;&#x5927;&#x5982;&#x62F3;&#xFF0C;&#x767D;&#x76AE;&#xFF0C;&#x767D;&#x74E4;&#xFF0C;&#x751F;&#x8106;&#x6709;&#x68A8;&#x9999;&#xFF1B;&#x6709;&#x4E00;&#x79CD;&#x8F83;&#x5927;&#xFF0C;&#x76AE;&#x8272;&#x5982;&#x867E;&#x87C6;&#xFF0C;&#x4E0D;&#x751A;&#x751C;&#xFF0C;&#x800C;&#x6781;&#x201C;&#x9762;&#x201D;&#xFF0C;&#x5B69;&#x5B50;&#x4EEC;&#x79F0;&#x4E4B;&#x4E3A;&#x201C;&#x5976;&#x5976;&#x54FC;&#x201D;&#xFF0C;&#x8BF4;&#x5976;&#x5976;&#x4E00;&#x8FB9;&#x5403;&#xFF0C;&#x4E00;&#x8FB9;&#x201C;&#x54FC;&#x201D;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x8748;&#x8748;&#xFF0C;&#x6211;&#x7684;&#x5BB6;&#x4E61;&#x53EB;&#x505A;&#x201C;&#x53EB;&#x86B0;&#x5B50;&#x201D;&#x3002;&#x53EB;&#x86B0;&#x5B50;&#x6709;&#x4E24;&#x79CD;&#x3002;&#x4E00;&#x79CD;&#x53EB;&#x201C;&#x4F89;&#x53EB;&#x86B0;&#x5B50;&#x201D;&#x3002;&#x90A3;&#x771F;&#x662F;&#x201C;&#x4F89;&#x201D;&#xFF0C;&#x8DDF;&#x4E00;&#x4E2A;&#x53EB;&#x9A74;&#x5B50;&#x4F3C;&#x7684;&#xFF0C;&#x53EB;&#x8D77;&#x6765;&#x201C;&#x54B6;&#x54B6;&#x54B6;&#x54B6;&#x201D;&#x5F88;&#x5435;&#x4EBA;&#x3002;&#x5582;&#x5B83;&#x4E00;&#x70B9;&#x8FA3;&#x6912;&#xFF0C;&#x66F4;&#x5435;&#x5F97;&#x5389;&#x5BB3;&#x3002;&#x4E00;&#x79CD;&#x53EB;&#x201C;&#x79CB;&#x53EB;&#x86B0;&#x5B50;&#x201D;&#xFF0C;&#x5168;&#x8EAB;&#x78A7;&#x7EFF;&#x5982;&#x73BB;&#x7483;&#x7FE0;&#xFF0C;&#x5C0F;&#x5DE7;&#x73B2;&#x73D1;&#xFF0C;&#x9E23;&#x58F0;&#x4EA6;&#x67D4;&#x7EC6;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x522B;&#x51FA;&#x58F0;&#xFF0C;&#x91D1;&#x94C3;&#x5B50;&#x5728;&#x5C0F;&#x73BB;&#x7483;&#x76D2;&#x5B50;&#x91CC;&#x722C;&#x54EA;&#xFF01;&#x5B83;&#x505C;&#x4E0B;&#x6765;&#xFF0C;&#x5403;&#x4E24;&#x53E3;&#x98DF;&#x2014;&#x2014;&#x9E2D;&#x68A8;&#x5207;&#x6210;&#x5C0F;&#x9AB0;&#x5B50;&#x5757;&#x3002;&#x4E8E;&#x662F;&#x5B83;&#x53EB;&#x4E86;&#x201C;&#x4E01;&#x94C3;&#x94C3;&#x94C3;&#x201D;&#x2026;&#x2026;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x4E58;&#x51C9;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x642C;&#x4E00;&#x5F20;&#x5927;&#x7AF9;&#x5E8A;&#x653E;&#x5728;&#x5929;&#x4E95;&#x91CC;&#xFF0C;&#x6A2A;&#x4E03;&#x7AD6;&#x516B;&#x4E00;&#x8EBA;&#xFF0C;&#x6D51;&#x8EAB;&#x723D;&#x5229;&#xFF0C;&#x6691;&#x6C14;&#x5168;&#x6D88;&#x3002;&#x770B;&#x6708;&#x534E;&#x3002;&#x6708;&#x534E;&#x4E94;&#x8272;&#x6676;&#x83B9;&#xFF0C;&#x53D8;&#x5E7B;&#x4E0D;&#x5B9A;&#xFF0C;&#x975E;&#x5E38;&#x597D;&#x770B;&#x3002;&#x6708;&#x4EAE;&#x5468;&#x56F4;&#x6709;&#x4E00;&#x4E2A;&#x6A21;&#x6A21;&#x7CCA;&#x7CCA;&#x7684;&#x5927;&#x5706;&#x5708;&#xFF0C;&#x8C13;&#x4E4B;&#x201C;&#x98CE;&#x5708;&#x201D;&#xFF0C;&#x8FD1;&#x51E0;&#x5929;&#x4F1A;&#x522E;&#x98CE;&#x3002;&#x201C;&#x4E4C;&#x732A;&#x5B50;&#x8FC7;&#x6C5F;&#x4E86;&#x201D;&#x2014;&#x2014;&#x9ED1;&#x4E91;&#x6F2B;&#x8FC7;&#x5929;&#x6CB3;&#xFF0C;&#x8981;&#x4E0B;&#x5927;&#x96E8;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x4E00;&#x76F4;&#x5230;&#x9732;&#x6C34;&#x4E0B;&#x6765;&#xFF0C;&#x7AF9;&#x5E8A;&#x5B50;&#x7684;&#x680F;&#x6746;&#x90FD;&#x6E7F;&#x4E86;&#xFF0C;&#x624D;&#x56DE;&#x53BB;&#xFF0C;&#x8FD9;&#x65F6;&#x5DF2;&#x7ECF;&#x5F88;&#x56F0;&#x4E86;&#xFF0C;&#x624D;&#x6CBE;&#x85E4;&#x6795;&#xFF08;&#x6211;&#x4EEC;&#x90A3;&#x91CC;&#x590F;&#x5929;&#x90FD;&#x6795;&#x85E4;&#x6795;&#x6216;&#x6F06;&#x6795;&#xFF09;&#xFF0C;&#x5DF2;&#x5165;&#x68A6;&#x4E61;&#x3002;
+&#x3000;&#x3000;
+&#x3000;&#x3000;&#x9E21;&#x5934;&#x7C73;&#x8001;&#x4E86;&#xFF0C;&#x65B0;&#x6838;&#x6843;&#x4E0B;&#x6765;&#x4E86;&#xFF0C;&#x590F;&#x5929;&#x5C31;&#x5FEB;&#x8FC7;&#x53BB;&#x4E86;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ch02.html" class="navigation navigation-prev " aria-label="Previous page: 第二章">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ch04.html" class="navigation navigation-next " aria-label="Next page: 第四章">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第三章","level":"1.4","depth":1,"next":{"title":"第四章","level":"1.5","depth":1,"path":"ch04.md","ref":"ch04.md","articles":[]},"previous":{"title":"第二章","level":"1.3","depth":1,"path":"ch02.md","ref":"ch02.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch03.md","mtime":"2021-03-31T10:01:20.553Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-31T10:01:25.451Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

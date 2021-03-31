@@ -1,18 +1,19 @@
+
 {
-  "name": "mybook",
+   "name": "mybook",
   "version": "1.0.0",
   "description": "gitbook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wanglin111/mybook.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "wanglin",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wanglin111/mybook/issues"
   },
